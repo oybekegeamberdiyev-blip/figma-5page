@@ -140,3 +140,71 @@
   top: 600px;
   left: 300px;
 }
+.page{
+  width: 100%;
+  height: 900px;
+  align-items: center;
+  display: flex;
+  gap: 100px;
+  position: relative;
+}
+.page__img{ 
+  width: 600px;
+  height: 700px;
+}
+.page__img--img{
+  width: 600px;
+  height: 700px;
+  position: absolute;
+  left: 200px;
+}
+.page__text--title{
+  color: rgb(8, 3, 3);
+  font-size: 60px;
+  font-weight: 600;
+  position: absolute;
+  right: 250px;
+  width: 500px;
+  top: 300px;
+}
+.page__text--subtitle{
+  width: 500px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  right: 250px;
+}
+.box__foot{
+  width: 100%;
+  height: 800px;
+  background-color: aqua;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.foot__banner{
+position: relative;
+}
+.div__text{
+  width: 500px;
+  height: 100px;
+  line-height: 20px;
+}
+.div__img{
+  width: 700px;
+  height: 700px;
+  position: relative;
+}
+.div__img--img{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 300px;
+}
+.div__text--title{
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  
+}
